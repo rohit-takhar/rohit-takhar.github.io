@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Visualization on Rohit Takhar</title>
+    <link>/tags/visualization/</link>
+    <description>Recent content in Visualization on Rohit Takhar</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Fri, 27 Apr 2018 00:00:00 +0530</lastBuildDate>
+    
+	<atom:link href="/tags/visualization/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>An application to visualize algorithms used in operating systems</title>
+      <link>/project/osava/</link>
+      <pubDate>Fri, 27 Apr 2018 00:00:00 +0530</pubDate>
+      
+      <guid>/project/osava/</guid>
+      <description>OSAVA visualizes the different types of algorithms used in operating systems as given in Silberschatz et al. (2012). OSAVA has six modules each dedicated to a particular type of algorithm. A module asks the user to select one of the algorithms available in it and enter relevant information. The module displays a brief description of the selected algorithm and then simulates its working. Output is provided typically as a combination of text and illustrations.</description>
+    </item>
+    
+  </channel>
+</rss>
