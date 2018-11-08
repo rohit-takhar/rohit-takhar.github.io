@@ -2,76 +2,76 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Rohit Takhar</title>
-    <link>/tags/</link>
+    <link>https://rohit-takhar.github.io/tags/</link>
     <description>Recent content in Tags on Rohit Takhar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
+    <copyright>&amp;copy; 2018 Rohit Takhar</copyright>
     <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0530</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rohit-takhar.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Academic</title>
-      <link>/tags/academic/</link>
+      <link>https://rohit-takhar.github.io/tags/academic/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0530</pubDate>
       
-      <guid>/tags/academic/</guid>
+      <guid>https://rohit-takhar.github.io/tags/academic/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Android</title>
-      <link>/tags/android/</link>
+      <link>https://rohit-takhar.github.io/tags/android/</link>
       <pubDate>Fri, 27 Apr 2018 00:00:00 +0530</pubDate>
       
-      <guid>/tags/android/</guid>
+      <guid>https://rohit-takhar.github.io/tags/android/</guid>
       <description></description>
     </item>
     
     <item>
       <title>C</title>
-      <link>/tags/c/</link>
+      <link>https://rohit-takhar.github.io/tags/c/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0530</pubDate>
       
-      <guid>/tags/c/</guid>
+      <guid>https://rohit-takhar.github.io/tags/c/</guid>
       <description></description>
     </item>
     
     <item>
       <title>GTK&#43;</title>
-      <link>/tags/gtk&#43;/</link>
+      <link>https://rohit-takhar.github.io/tags/gtk&#43;/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0530</pubDate>
       
-      <guid>/tags/gtk&#43;/</guid>
+      <guid>https://rohit-takhar.github.io/tags/gtk&#43;/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Multithreading</title>
-      <link>/tags/multithreading/</link>
+      <link>https://rohit-takhar.github.io/tags/multithreading/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0530</pubDate>
       
-      <guid>/tags/multithreading/</guid>
+      <guid>https://rohit-takhar.github.io/tags/multithreading/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Operating Systems</title>
-      <link>/tags/operating-systems/</link>
+      <link>https://rohit-takhar.github.io/tags/operating-systems/</link>
       <pubDate>Fri, 27 Apr 2018 00:00:00 +0530</pubDate>
       
-      <guid>/tags/operating-systems/</guid>
+      <guid>https://rohit-takhar.github.io/tags/operating-systems/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Visualization</title>
-      <link>/tags/visualization/</link>
+      <link>https://rohit-takhar.github.io/tags/visualization/</link>
       <pubDate>Fri, 27 Apr 2018 00:00:00 +0530</pubDate>
       
-      <guid>/tags/visualization/</guid>
+      <guid>https://rohit-takhar.github.io/tags/visualization/</guid>
       <description></description>
     </item>
     

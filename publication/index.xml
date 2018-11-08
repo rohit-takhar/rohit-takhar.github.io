@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publications on Rohit Takhar</title>
-    <link>/publication/</link>
+    <link>https://rohit-takhar.github.io/publication/</link>
     <description>Recent content in Publications on Rohit Takhar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
+    <copyright>&amp;copy; 2018 Rohit Takhar</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0530</lastBuildDate>
     
-	<atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://rohit-takhar.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Grading uncompilable programs</title>
-      <link>/publication/grade-uncompilable/</link>
+      <link>https://rohit-takhar.github.io/publication/grade-uncompilable/</link>
       <pubDate>Mon, 29 Oct 2018 00:00:00 +0530</pubDate>
       
-      <guid>/publication/grade-uncompilable/</guid>
+      <guid>https://rohit-takhar.github.io/publication/grade-uncompilable/</guid>
       <description>More detail can easily be written here using Markdown and $\rm \LaTeX$ math code.</description>
     </item>
     
