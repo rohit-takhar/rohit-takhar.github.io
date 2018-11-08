@@ -11,6 +11,16 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Grading uncompilable programs</title>
+      <link>/publication/grade-uncompilable/</link>
+      <pubDate>Mon, 29 Oct 2018 00:00:00 +0530</pubDate>
+      
+      <guid>/publication/grade-uncompilable/</guid>
+      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Example Page</title>
       <link>/tutorial/example/</link>
       <pubDate>Sun, 09 Sep 2018 00:00:00 +0530</pubDate>
@@ -128,6 +138,20 @@ Instead of using the deadlock avoidance algorithm, operating systems may choose 
 &lt;h3 id=&#34;implementation&#34;&gt;Implementation&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;OSAVA&lt;/strong&gt; has been implemented in Python. It can be downloaded from the Google Play online app store (&lt;a href=&#34;https://play.google.com/store/apps/details?id=org.nsit.OSAVA&amp;amp;hl=en&#34; target=&#34;_blank&#34;&gt;https://play.google.com/store/apps/details?id=org.nsit.OSAVA&amp;amp;hl=en&lt;/a&gt;) and installed on all mobile phones that use the Android operating system. &lt;strong&gt;OSAVA&lt;/strong&gt; is free and open-source (&lt;a href=&#34;https://github.com/OSAVA-nsit/OSAVA&#34; target=&#34;_blank&#34;&gt;https://github.com/OSAVA-nsit/OSAVA&lt;/a&gt;), and does not require connecting to the Internet.&lt;/p&gt;
+
+&lt;h3 id=&#34;contribution&#34;&gt;Contribution&lt;/h3&gt;
+
+&lt;p&gt;I implemented the CPU scheduling algorithms. Other contributors include:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Udit Arora (&lt;a href=&#34;https://github.com/uditarora&#34; target=&#34;_blank&#34;&gt;https://github.com/uditarora&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Namrata Mukhija (&lt;a href=&#34;https://github.com/Namrata96&#34; target=&#34;_blank&#34;&gt;https://github.com/Namrata96&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Priyanka Singla (&lt;a href=&#34;https://github.com/priyankasingla&#34; target=&#34;_blank&#34;&gt;https://github.com/priyankasingla&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;acknowledgement&#34;&gt;Acknowledgement&lt;/h3&gt;
+
+&lt;p&gt;I would like to thank Prof. Pinaki Chakraborty (&lt;a href=&#34;http://nsit.ac.in/faculty/pnc/&#34; target=&#34;_blank&#34;&gt;http://nsit.ac.in/faculty/pnc/&lt;/a&gt;) for the ideas and discussions during the development of &lt;strong&gt;OSAVA&lt;/strong&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -232,26 +256,6 @@ Enter user credentials to login on server.&lt;/p&gt;
 &lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Released under the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md&#34; target=&#34;_blank&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>A Person Re-Identification System For Mobile Devices</title>
-      <link>/publication/person-re-id/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0530</pubDate>
-      
-      <guid>/publication/person-re-id/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Mobile visual clothing search</title>
-      <link>/publication/clothing-search/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0530</pubDate>
-      
-      <guid>/publication/clothing-search/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>
     
