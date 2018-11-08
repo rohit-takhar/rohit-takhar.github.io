@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rohit Takhar on Rohit Takhar</title>
-    <link>/</link>
+    <link>https://rohit-takhar.github.io/</link>
     <description>Recent content in Rohit Takhar on Rohit Takhar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018</copyright>
+    <copyright>&amp;copy; 2018 Rohit Takhar</copyright>
     <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0530</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Grading uncompilable programs</title>
-      <link>/publication/grade-uncompilable/</link>
+      <link>https://rohit-takhar.github.io/publication/grade-uncompilable/</link>
       <pubDate>Mon, 29 Oct 2018 00:00:00 +0530</pubDate>
       
-      <guid>/publication/grade-uncompilable/</guid>
+      <guid>https://rohit-takhar.github.io/publication/grade-uncompilable/</guid>
       <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Example Page</title>
-      <link>/tutorial/example/</link>
+      <link>https://rohit-takhar.github.io/tutorial/example/</link>
       <pubDate>Sun, 09 Sep 2018 00:00:00 +0530</pubDate>
       
-      <guid>/tutorial/example/</guid>
+      <guid>https://rohit-takhar.github.io/tutorial/example/</guid>
       <description>
 
 &lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
@@ -42,10 +42,10 @@
     
     <item>
       <title>An application to visualize algorithms used in operating systems</title>
-      <link>/project/osava/</link>
+      <link>https://rohit-takhar.github.io/project/osava/</link>
       <pubDate>Fri, 27 Apr 2018 00:00:00 +0530</pubDate>
       
-      <guid>/project/osava/</guid>
+      <guid>https://rohit-takhar.github.io/project/osava/</guid>
       <description>
 
 &lt;p&gt;&lt;strong&gt;OSAVA&lt;/strong&gt; visualizes the different types of algorithms used in operating systems as given in Silberschatz et al. (2012). &lt;strong&gt;OSAVA&lt;/strong&gt; has six modules each dedicated to a particular type of algorithm. A module asks the user to select one of the algorithms available in it and enter relevant information. The module displays a brief description of the selected algorithm and then simulates its working. Output is provided typically as a combination of text and illustrations. &lt;strong&gt;OSAVA&lt;/strong&gt; can visualize a total of twenty-four algorithms (See the table given below).&lt;/p&gt;
@@ -157,10 +157,10 @@ Instead of using the deadlock avoidance algorithm, operating systems may choose 
     
     <item>
       <title>Example Talk</title>
-      <link>/talk/example/</link>
+      <link>https://rohit-takhar.github.io/talk/example/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0530</pubDate>
       
-      <guid>/talk/example/</guid>
+      <guid>https://rohit-takhar.github.io/talk/example/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;p&gt;Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.&lt;/p&gt;
 
@@ -181,10 +181,10 @@ Instead of using the deadlock avoidance algorithm, operating systems may choose 
     
     <item>
       <title>Multi-segmented FTP client</title>
-      <link>/project/multi_ftp/</link>
+      <link>https://rohit-takhar.github.io/project/multi_ftp/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0530</pubDate>
       
-      <guid>/project/multi_ftp/</guid>
+      <guid>https://rohit-takhar.github.io/project/multi_ftp/</guid>
       <description>
 
 &lt;p&gt;Apart from all functionalities of standard FTP, the important thing on which I have worked is to increase the downloading speed of very large files using multithreading(used &lt;code&gt;POSIX&lt;/code&gt; threads).&lt;br /&gt;
@@ -238,10 +238,10 @@ Enter user credentials to login on server.&lt;/p&gt;
     
     <item>
       <title>Academic: the website designer for Hugo</title>
-      <link>/post/getting-started/</link>
+      <link>https://rohit-takhar.github.io/post/getting-started/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0530</pubDate>
       
-      <guid>/post/getting-started/</guid>
+      <guid>https://rohit-takhar.github.io/post/getting-started/</guid>
       <description>
 
 &lt;p&gt;&lt;strong&gt;Academic&lt;/strong&gt; makes it easy to create a beautiful website for free using Markdown. Customize anything on your site with widgets, themes, and language packs.&lt;/p&gt;
@@ -261,10 +261,10 @@ Enter user credentials to login on server.&lt;/p&gt;
     
     <item>
       <title>Slides</title>
-      <link>/slides/example-slides/</link>
+      <link>https://rohit-takhar.github.io/slides/example-slides/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/slides/example-slides/</guid>
+      <guid>https://rohit-takhar.github.io/slides/example-slides/</guid>
       <description>
 
 &lt;h1 id=&#34;welcome-to-slides&#34;&gt;Welcome to Slides&lt;/h1&gt;
