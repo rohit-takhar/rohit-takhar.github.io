@@ -13,7 +13,7 @@ title = "Rohit Takhar"
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
 copyright = "&copy; 2018 Rohit Takhar"
-baseurl = "https://rohit-takhar.github.io"
+baseurl = "https://rohit-takhar.github.io/docs/"
 publishDir = "docs"
 theme = "academic"
 enableEmoji = true
