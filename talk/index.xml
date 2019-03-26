@@ -1,26 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Recent &amp; Upcoming Talks on Rohit Takhar</title>
-    <link>https://rohit-takhar.github.io/talk/</link>
-    <description>Recent content in Recent &amp; Upcoming Talks on Rohit Takhar</description>
+    <title>Talks on Rohit Takhar</title>
+    <link>/talk/</link>
+    <description>Recent content in Talks on Rohit Takhar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018 Rohit Takhar</copyright>
-    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 17 Mar 2019 14:00:00 +0530</lastBuildDate>
     
-	<atom:link href="https://rohit-takhar.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Example Talk</title>
-      <link>https://rohit-takhar.github.io/talk/example/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0530</pubDate>
+      <title>PyData Delhi Meetup</title>
+      <link>/talk/pycon-meetup/</link>
+      <pubDate>Sun, 17 Mar 2019 14:00:00 +0530</pubDate>
       
-      <guid>https://rohit-takhar.github.io/talk/example/</guid>
-      <description>Click on the Slides button above to view the built-in slides feature.
- Slides can be added in a few ways:
- Create slides using Academic&amp;rsquo;s Slides feature and link using url_slides parameter in the front matter of the talk file Upload an existing slide deck to static/ and link using url_slides parameter in the front matter of the talk file Embed your slides (e.g. Google Slides) or presentation video on this page using shortcodes.</description>
+      <guid>/talk/pycon-meetup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CACM Special Section - India</title>
+      <link>/talk/cacm/</link>
+      <pubDate>Sat, 23 Feb 2019 10:00:00 +0530</pubDate>
+      
+      <guid>/talk/cacm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Grading Uncompilable Programs - Our IAAI paper</title>
+      <link>/talk/iaai/</link>
+      <pubDate>Wed, 30 Jan 2019 11:00:00 +0530</pubDate>
+      
+      <guid>/talk/iaai/</guid>
+      <description></description>
     </item>
     
   </channel>

@@ -1,215 +1,170 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-    
     <url>
     
-      <loc>https://rohit-takhar.github.io/publication/grade-uncompilable/</loc>
-      <lastmod>2018-10-29T00:00:00+05:30</lastmod>
+      <loc>/talk/pycon-meetup/</loc>
+      <lastmod>2019-03-17T14:00:00+05:30</lastmod>
     </url>
-    
   
-    
     <url>
     
-      <loc>https://rohit-takhar.github.io/tutorial/example/</loc>
-      <lastmod>2018-09-09T00:00:00+05:30</lastmod>
+      <loc>/talk/cacm/</loc>
+      <lastmod>2019-02-23T10:00:00+05:30</lastmod>
     </url>
-    
   
-    
     <url>
     
-      <loc>https://rohit-takhar.github.io/tutorial/</loc>
-      <lastmod>2018-09-09T00:00:00+05:30</lastmod>
+      <loc>/post/jupyter/</loc>
+      <lastmod>2019-02-05T00:00:00+00:00</lastmod>
     </url>
-    
   
-    
     <url>
     
-      <loc>https://rohit-takhar.github.io/project/osava/</loc>
-      <lastmod>2018-04-27T00:00:00+05:30</lastmod>
+      <loc>/talk/iaai/</loc>
+      <lastmod>2019-01-30T11:00:00+05:30</lastmod>
     </url>
-    
   
-    
     <url>
     
-      <loc>https://rohit-takhar.github.io/talk/example/</loc>
-      <lastmod>2017-01-01T00:00:00+05:30</lastmod>
+      <loc>/publication/grade-uncompilable/</loc>
+      <lastmod>2019-01-30T00:00:00+05:30</lastmod>
     </url>
-    
   
-    
     <url>
     
-      <loc>https://rohit-takhar.github.io/post/</loc>
-      <lastmod>2017-01-01T00:00:00+05:30</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://rohit-takhar.github.io/publication/</loc>
-      <lastmod>2017-01-01T00:00:00+05:30</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://rohit-takhar.github.io/talk/</loc>
-      <lastmod>2017-01-01T00:00:00+05:30</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://rohit-takhar.github.io/project/multi_ftp/</loc>
+      <loc>/project/osava/</loc>
       <lastmod>2016-04-27T00:00:00+05:30</lastmod>
     </url>
-    
   
-    
     <url>
     
-      <loc>https://rohit-takhar.github.io/post/getting-started/</loc>
+      <loc>/project/multi_ftp/</loc>
+      <lastmod>2016-04-27T00:00:00+05:30</lastmod>
+    </url>
+  
+    <url>
+    
+      <loc>/post/getting-started/</loc>
       <lastmod>2018-01-13T00:00:00+05:30</lastmod>
     </url>
-    
   
-    
     <url>
     
-      <loc>https://rohit-takhar.github.io/publication_types/1/</loc>
-      <lastmod>2018-10-29T00:00:00+05:30</lastmod>
+      <loc>/author/admin/</loc>
+    </url>
+  
+    <url>
+    
+      <loc>/publication_types/1/</loc>
+      <lastmod>2019-01-30T00:00:00+05:30</lastmod>
       <priority>0</priority>
     </url>
-    
   
-    
     <url>
     
-      <loc>https://rohit-takhar.github.io/tags/academic/</loc>
+      <loc>/tags/academic/</loc>
       <lastmod>2018-01-13T00:00:00+05:30</lastmod>
       <priority>0</priority>
     </url>
-    
   
-    
     <url>
     
-      <loc>https://rohit-takhar.github.io/tags/android/</loc>
-      <lastmod>2018-04-27T00:00:00+05:30</lastmod>
+      <loc>/author/</loc>
       <priority>0</priority>
     </url>
-    
   
-    
     <url>
     
-      <loc>https://rohit-takhar.github.io/tags/c/</loc>
+      <loc>/authors/</loc>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/categories/</loc>
+      <priority>0</priority>
+    </url>
+  
+    <url>
+    
+      <loc>/tags/deep-learning/</loc>
       <lastmod>2016-04-27T00:00:00+05:30</lastmod>
       <priority>0</priority>
     </url>
-    
   
-    
     <url>
     
-      <loc>https://rohit-takhar.github.io/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://rohit-takhar.github.io/tags/gtk&#43;/</loc>
+      <loc>/tags/demo/</loc>
       <lastmod>2016-04-27T00:00:00+05:30</lastmod>
       <priority>0</priority>
     </url>
-    
   
-    
     <url>
     
-      <loc>https://rohit-takhar.github.io/tags/multithreading/</loc>
+      <loc>/project/</loc>
       <lastmod>2016-04-27T00:00:00+05:30</lastmod>
       <priority>0</priority>
     </url>
-    
   
-    
     <url>
     
-      <loc>https://rohit-takhar.github.io/tags/operating-systems/</loc>
-      <lastmod>2018-04-27T00:00:00+05:30</lastmod>
+      <loc>/post/</loc>
+      <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+    </url>
+  
+    <url>
+    
+      <loc>/publication_types/</loc>
+      <lastmod>2019-01-30T00:00:00+05:30</lastmod>
       <priority>0</priority>
     </url>
-    
   
-    
     <url>
     
-      <loc>https://rohit-takhar.github.io/project/</loc>
-      <lastmod>2018-04-27T00:00:00+05:30</lastmod>
+      <loc>/publication/</loc>
+      <lastmod>2019-01-30T00:00:00+05:30</lastmod>
+    </url>
+  
+    <url>
+    
+      <loc>/</loc>
+      <lastmod>2019-03-17T14:00:00+05:30</lastmod>
       <priority>0</priority>
     </url>
-    
   
-    
     <url>
     
-      <loc>https://rohit-takhar.github.io/publication_types/</loc>
-      <lastmod>2018-10-29T00:00:00+05:30</lastmod>
+      <loc>/authors/rohit-takhar/</loc>
+      <lastmod>2019-01-30T11:00:00+05:30</lastmod>
       <priority>0</priority>
     </url>
-    
   
-    
     <url>
     
-      <loc>https://rohit-takhar.github.io/</loc>
-      <lastmod>2017-10-15T00:00:00+05:30</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://rohit-takhar.github.io/slides/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://rohit-takhar.github.io/slides/example-slides/</loc>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://rohit-takhar.github.io/tags/</loc>
+      <loc>/tags/</loc>
       <lastmod>2018-01-13T00:00:00+05:30</lastmod>
       <priority>0</priority>
     </url>
-    
   
-    
     <url>
     
-      <loc>https://rohit-takhar.github.io/tags/visualization/</loc>
-      <lastmod>2018-04-27T00:00:00+05:30</lastmod>
+      <loc>/talk/</loc>
+      <lastmod>2019-03-17T14:00:00+05:30</lastmod>
+    </url>
+  
+    <url>
+    
+      <loc>/authors/varun-aggarwal/</loc>
+      <lastmod>2019-01-30T11:00:00+05:30</lastmod>
       <priority>0</priority>
     </url>
+  
+    <url>
     
+      <loc>/authors/admin/</loc>
+      <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
   
 </urlset>

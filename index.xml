@@ -2,442 +2,526 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rohit Takhar on Rohit Takhar</title>
-    <link>https://rohit-takhar.github.io/</link>
+    <link>/</link>
     <description>Recent content in Rohit Takhar on Rohit Takhar</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018 Rohit Takhar</copyright>
-    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 17 Mar 2019 14:00:00 +0530</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Grading uncompilable programs</title>
-      <link>https://rohit-takhar.github.io/publication/grade-uncompilable/</link>
-      <pubDate>Mon, 29 Oct 2018 00:00:00 +0530</pubDate>
+      <title>PyData Delhi Meetup</title>
+      <link>/talk/pycon-meetup/</link>
+      <pubDate>Sun, 17 Mar 2019 14:00:00 +0530</pubDate>
       
-      <guid>https://rohit-takhar.github.io/publication/grade-uncompilable/</guid>
+      <guid>/talk/pycon-meetup/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Example Page</title>
-      <link>https://rohit-takhar.github.io/tutorial/example/</link>
-      <pubDate>Sun, 09 Sep 2018 00:00:00 +0530</pubDate>
+      <title>CACM Special Section - India</title>
+      <link>/talk/cacm/</link>
+      <pubDate>Sat, 23 Feb 2019 10:00:00 +0530</pubDate>
       
-      <guid>https://rohit-takhar.github.io/tutorial/example/</guid>
+      <guid>/talk/cacm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Display Jupyter Notebooks with Academic</title>
+      <link>/post/jupyter/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/jupyter/</guid>
       <description>
 
-&lt;p&gt;In this tutorial, I&amp;rsquo;ll share my top 10 tips for getting started with Academic:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from IPython.core.display import Image
+Image(&#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&#39;)
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;tip-1&#34;&gt;Tip 1&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&#34;./academic_0_0.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;&amp;hellip;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;print(&amp;quot;Welcome to Academic!&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;h2 id=&#34;tip-2&#34;&gt;Tip 2&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;Welcome to Academic!
+&lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;&amp;hellip;&lt;/p&gt;
+&lt;h2 id=&#34;install-python-and-jupyter&#34;&gt;Install Python and Jupyter&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.anaconda.com/distribution/#download-section&#34; target=&#34;_blank&#34;&gt;Install Anaconda&lt;/a&gt; which includes Python 3 and Jupyter notebook.&lt;/p&gt;
+
+&lt;p&gt;Otherwise, for advanced users, install Jupyter notebook with &lt;code&gt;pip3 install jupyter&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;create-a-new-blog-post-as-usual-https-sourcethemes-com-academic-docs-managing-content-create-a-blog-post&#34;&gt;Create a new blog post &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#create-a-blog-post&#34; target=&#34;_blank&#34;&gt;as usual&lt;/a&gt;&lt;/h2&gt;
+
+&lt;p&gt;Run the following commands in your Terminal, substituting &lt;code&gt;&amp;lt;MY_WEBSITE_FOLDER&amp;gt;&lt;/code&gt; and &lt;code&gt;my-post&lt;/code&gt; with the file path to your Academic website folder and a name for your blog post (without spaces), respectively:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;cd &amp;lt;MY_WEBSITE_FOLDER&amp;gt;
+hugo new  --kind post post/my-post
+cd &amp;lt;MY_WEBSITE_FOLDER&amp;gt;/content/post/my-post/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;create-or-upload-a-jupyter-notebook&#34;&gt;Create or upload a Jupyter notebook&lt;/h2&gt;
+
+&lt;p&gt;Run the following command to start Jupyter within your new blog post folder. Then create a new Jupyter notebook (&lt;em&gt;New &amp;gt; Python Notebook&lt;/em&gt;) or upload a notebook.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;jupyter notebook
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;convert-notebook-to-markdown&#34;&gt;Convert notebook to Markdown&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;jupyter nbconvert Untitled.ipynb --to markdown --NbConvertApp.output_files_dir=.
+
+# Copy the contents of Untitled.md and append it to index.md:
+cat Untitled.md | tee -a index.md
+
+# Remove the temporary file:
+rm Untitled.md
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;edit-your-post-metadata&#34;&gt;Edit your post metadata&lt;/h2&gt;
+
+&lt;p&gt;Open &lt;code&gt;index.md&lt;/code&gt; in your text editor and edit the title etc. in the &lt;a href=&#34;https://sourcethemes.com/academic/docs/front-matter/&#34; target=&#34;_blank&#34;&gt;front matter&lt;/a&gt; according to your preference.&lt;/p&gt;
+
+&lt;p&gt;To set a &lt;a href=&#34;https://sourcethemes.com/academic/docs/managing-content/#featured-image&#34; target=&#34;_blank&#34;&gt;featured image&lt;/a&gt;, place an image named &lt;code&gt;featured&lt;/code&gt; into your post&amp;rsquo;s folder.&lt;/p&gt;
+
+&lt;p&gt;For other tips, such as using math, see the guide on &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;writing content with Academic&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>An application to visualize algorithms used in operating systems</title>
-      <link>https://rohit-takhar.github.io/project/osava/</link>
-      <pubDate>Fri, 27 Apr 2018 00:00:00 +0530</pubDate>
+      <title>Grading Uncompilable Programs - Our IAAI paper</title>
+      <link>/talk/iaai/</link>
+      <pubDate>Wed, 30 Jan 2019 11:00:00 +0530</pubDate>
       
-      <guid>https://rohit-takhar.github.io/project/osava/</guid>
-      <description>
-
-&lt;p&gt;&lt;strong&gt;OSAVA&lt;/strong&gt; visualizes the different types of algorithms used in operating systems as given in Silberschatz et al. (2012). &lt;strong&gt;OSAVA&lt;/strong&gt; has six modules each dedicated to a particular type of algorithm. A module asks the user to select one of the algorithms available in it and enter relevant information. The module displays a brief description of the selected algorithm and then simulates its working. Output is provided typically as a combination of text and illustrations. &lt;strong&gt;OSAVA&lt;/strong&gt; can visualize a total of twenty-four algorithms (See the table given below).&lt;/p&gt;
-
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Module&lt;/th&gt;
-&lt;th&gt;Algorithms visualized&lt;/th&gt;
-&lt;th&gt;Illustration&lt;/th&gt;
-&lt;th&gt;Output&lt;/th&gt;
-&lt;th&gt;Pedagogical utility&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;CPU scheduling algorithms&lt;/td&gt;
-&lt;td&gt;First-come first-served, shortest job first, priority, round robin, multilevel queue and multilevel feedback queue scheduling algorithms&lt;/td&gt;
-&lt;td&gt;Gantt chart&lt;/td&gt;
-&lt;td&gt;Turnaround time, waiting time, response time, throughput and CPU utilization&lt;/td&gt;
-&lt;td&gt;Can be used to solve numerical questions involving large number of processes&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Deadlock avoidance algorithm&lt;/td&gt;
-&lt;td&gt;Banker’s algorithm&lt;/td&gt;
-&lt;td&gt;—&lt;/td&gt;
-&lt;td&gt;Safe sequence&lt;/td&gt;
-&lt;td&gt;Can be used to solve numerical questions involving large number of processes and resource types&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Deadlock detection algorithm&lt;/td&gt;
-&lt;td&gt;Variant of Banker’s algorithm&lt;/td&gt;
-&lt;td&gt;—&lt;/td&gt;
-&lt;td&gt;List of deadlocked processes&lt;/td&gt;
-&lt;td&gt;Can be used to solve numerical questions involving large number of processes and resource types&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Contiguous memory allocation strategies&lt;/td&gt;
-&lt;td&gt;First fit, best fit and worst fit strategies&lt;/td&gt;
-&lt;td&gt;Memory map&lt;/td&gt;
-&lt;td&gt;—&lt;/td&gt;
-&lt;td&gt;Can be used to solve numerical questions involving large number of processes&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Page replacement algorithms&lt;/td&gt;
-&lt;td&gt;First-in first-out, optimal, least recently used, second chance, enhanced second chance, least frequently used and most frequently used page replacement algorithms&lt;/td&gt;
-&lt;td&gt;Memory map&lt;/td&gt;
-&lt;td&gt;Number of page faults and page fault ratio&lt;/td&gt;
-&lt;td&gt;Can be used to solve numerical questions involving large number of page faults and frames&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td&gt;Disk scheduling algorithms&lt;/td&gt;
-&lt;td&gt;First-come first-served, shortest seek time first, SCAN, C-SCAN, LOOK and C-LOOK disk scheduling algorithms Trace of the path followed by read/write head&lt;/td&gt;
-&lt;td&gt;Number of cylinders traversed by read/write head&lt;/td&gt;
-&lt;td&gt;Can be used to solve numerical questions involving large number of disk accesses&lt;/td&gt;
-&lt;td&gt;&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h3 id=&#34;cpu-scheduling-algorithms&#34;&gt;CPU scheduling algorithms&lt;/h3&gt;
-
-&lt;p&gt;A computer using a multitasking operating system has multiple processes loaded in its memory at a given time. The operating system uses a CPU scheduling algorithm to decide which of those processes will be executed next. &lt;strong&gt;OSAVA&lt;/strong&gt; can visualize the CPU scheduling algorithms commonly used by operating systems. The user has to enter the arrival time and the CPU burst time of the processes. The user then needs to select the CPU scheduling algorithm to be visualized. When shortest job first and priority scheduling algorithms are selected, the user needs to specify whether non-preemptive or preemptive scheduling is to be performed. If priority scheduling is used, then the user also needs to enter the priority of each process. In case of priority scheduling, &lt;strong&gt;OSAVA&lt;/strong&gt; can also visualize the concept of aging in which the priority of a process is incremented every time it waits in the ready queue for a predefined amount of time. If round robin scheduling is used, then the user needs to specify the time quantum. When multilevel queue scheduling and multilevel feedback queue scheduling are selected, then first-come first served and round robin algorithms are used for intra-queue scheduling and preemptive priority scheduling algorithm is used for inter-queue scheduling. Details of the queues are to be entered by the user. Finally, the user has to enter the dispatch latency which is considered to be negligible if the user chooses not to enter a value. &lt;strong&gt;OSAVA&lt;/strong&gt; simulates the selected CPU scheduling algorithm and displays a Gantt chart showing the time intervals when the different processes executed on the CPU. &lt;strong&gt;OSAVA&lt;/strong&gt; then displays a timeline representing the execution of the processes. The turnaround time, waiting time and response time of a particular process can be viewed by tapping on the ‘Details’ button next to it. To calculate the response time of a process, it is assumed that a process generates its first response to the user as soon as it starts executing. The average turnaround time, the average waiting time and the average response time of the processes are then calculated. The throughput of the system and the CPU utilization are also displayed (Fig. 1). &lt;strong&gt;OSAVA&lt;/strong&gt; displays more information about the processes than the earlier tools (Khuri and Hsu 1999; Suranauwarat 2007; Fischbach 2013) but in a more compact format.
-&lt;img src=&#34;fig_1.jpg&#34; alt=&#34;Screenshot&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;deadlock-handling-algorithms&#34;&gt;Deadlock handling algorithms&lt;/h3&gt;
-
-&lt;p&gt;In context of operating systems, a deadlock is a situation where two or more processes are waiting indefinitely because the resources they have requested for are being held by one another. Operating systems may use three techniques to handle deadlocks, viz. deadlock prevention, deadlock avoidance, and deadlock detection and recovery. The Banker’s algorithm is a well known deadlock avoidance technique and can be visualized by &lt;strong&gt;OSAVA&lt;/strong&gt;. The user has to enter the number of resources of different types that have been allocated to the processes and the maximum number of resources of each type that the processes can request for. The user also needs to enter the number of resources of each type that are currently free. Finally, the user needs to specify a process that is now requesting for more resources and enter the number of resources of each type the process is requesting for. It is assumed that the system is initially in a safe state, i.e. there is no possibility of a deadlock. &lt;strong&gt;OSAVA&lt;/strong&gt; uses the resource-request algorithm to determine the state in which the system will be in if the requested resources are granted to the process. Then &lt;strong&gt;OSAVA&lt;/strong&gt; uses the safety algorithm to find a safe sequence, i.e. a sequence in which the processes should be executed so that they can be allocated the resources they need. The matrices and vectors involved in the calculation are displayed to enhance pedagogy.
-Instead of using the deadlock avoidance algorithm, operating systems may choose to detect deadlocks as they occur and recover from them. The algorithm to detect deadlocks is similar to the Banker’s algorithm and can be visualized by &lt;strong&gt;OSAVA&lt;/strong&gt; as well. The user has to enter the number of resources of different types that have been allocated to the processes and the number of resources of each type that are currently free. The user then needs to enter the number of resources of each type that the processes are now requesting for. &lt;strong&gt;OSAVA&lt;/strong&gt; tries to find a sequence in which the processes can be allocated the resources they are requesting for without causing a deadlock. If such a sequence cannot be found, then &lt;strong&gt;OSAVA&lt;/strong&gt; lists the deadlocked processes.&lt;/p&gt;
-
-&lt;h3 id=&#34;memory-management-algorithms&#34;&gt;Memory management algorithms&lt;/h3&gt;
-
-&lt;p&gt;An operating system may use a contiguous memory allocation scheme wherein a process is loaded in a contiguous block of memory. &lt;strong&gt;OSAVA&lt;/strong&gt; can visualize three common contiguous memory allocation strategies, viz. first fit, best fit and worst fit. The user has to enter the size of the memory, and arrival time, turnaround time and memory requirement of each process. &lt;strong&gt;OSAVA&lt;/strong&gt; then visualizes a memory allocation strategy and displays a map of the memory whenever a process arrives or terminates. Such a memory map shows which parts of the memory are occupied by the different processes and which parts are free (Fig. 2).
-&lt;img src=&#34;fig_2.jpg&#34; alt=&#34;Screenshot&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Most operating systems use pure demand paging to implement virtual memory. Such operating systems must use a page replacement algorithm to select a page to be swapped out from the memory in case of a page fault. The commonly used page replacement algorithms can be visualized by &lt;strong&gt;OSAVA&lt;/strong&gt;. The user has to enter the number of frames in the memory that have been allocated to a process and a reference string. &lt;strong&gt;OSAVA&lt;/strong&gt; then visualizes the selected page replacement algorithm. It shows which page is residing in which frame after each memory access. &lt;strong&gt;OSAVA&lt;/strong&gt; also calculates the total number of page faults and the page fault ratio (Fig. 3). The user interface of &lt;strong&gt;OSAVA&lt;/strong&gt; is simpler and more intuitive to use than those of the earlier tools (Khuri and Hsu 1999; Fischbach 2013; Garmpis 2013) for visualizing page replacement algorithms.
-&lt;img src=&#34;fig_3.jpg&#34; alt=&#34;Screenshot&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;disk-scheduling-algorithms&#34;&gt;Disk scheduling algorithms&lt;/h3&gt;
-
-&lt;p&gt;A hard disk is used as the secondary storage device of a typical computer. Operating systems use an algorithm to schedule the requests to access the different cylinders in the disk in order to decrease the average access time. The common disk scheduling algorithms can be visualized by &lt;strong&gt;OSAVA&lt;/strong&gt;. The user has to enter the number of cylinders in the disk, the current position and the direction of movement of the read/write head. &lt;strong&gt;OSAVA&lt;/strong&gt; simulates a disk scheduling algorithm, and displays a trace of the path followed by the read/write head and the count of cylinders traversed (Fig. 4).
-&lt;img src=&#34;fig_4.jpg&#34; alt=&#34;Screenshot&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;implementation&#34;&gt;Implementation&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;OSAVA&lt;/strong&gt; has been implemented in Python. It can be downloaded from the Google Play online app store (&lt;a href=&#34;https://play.google.com/store/apps/details?id=org.nsit.OSAVA&amp;amp;hl=en&#34; target=&#34;_blank&#34;&gt;https://play.google.com/store/apps/details?id=org.nsit.OSAVA&amp;amp;hl=en&lt;/a&gt;) and installed on all mobile phones that use the Android operating system. &lt;strong&gt;OSAVA&lt;/strong&gt; is free and open-source (&lt;a href=&#34;https://github.com/OSAVA-nsit/OSAVA&#34; target=&#34;_blank&#34;&gt;https://github.com/OSAVA-nsit/OSAVA&lt;/a&gt;), and does not require connecting to the Internet.&lt;/p&gt;
-
-&lt;h3 id=&#34;contribution&#34;&gt;Contribution&lt;/h3&gt;
-
-&lt;p&gt;I implemented the CPU scheduling algorithms. Other contributors include:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Udit Arora (&lt;a href=&#34;https://github.com/uditarora&#34; target=&#34;_blank&#34;&gt;https://github.com/uditarora&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Namrata Mukhija (&lt;a href=&#34;https://github.com/Namrata96&#34; target=&#34;_blank&#34;&gt;https://github.com/Namrata96&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Priyanka Singla (&lt;a href=&#34;https://github.com/priyankasingla&#34; target=&#34;_blank&#34;&gt;https://github.com/priyankasingla&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;acknowledgement&#34;&gt;Acknowledgement&lt;/h3&gt;
-
-&lt;p&gt;I would like to thank Prof. Pinaki Chakraborty (&lt;a href=&#34;http://nsit.ac.in/faculty/pnc/&#34; target=&#34;_blank&#34;&gt;http://nsit.ac.in/faculty/pnc/&lt;/a&gt;) for the ideas and discussions during the development of &lt;strong&gt;OSAVA&lt;/strong&gt;.&lt;/p&gt;
-</description>
+      <guid>/talk/iaai/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Example Talk</title>
-      <link>https://rohit-takhar.github.io/talk/example/</link>
-      <pubDate>Sun, 01 Jan 2017 00:00:00 +0530</pubDate>
+      <title>Grading Uncompilable Programs</title>
+      <link>/publication/grade-uncompilable/</link>
+      <pubDate>Wed, 30 Jan 2019 00:00:00 +0530</pubDate>
       
-      <guid>https://rohit-takhar.github.io/talk/example/</guid>
-      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;p&gt;Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.&lt;/p&gt;
-
-&lt;/div&gt;
-
-
-&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Academic&amp;rsquo;s &lt;em&gt;Slides&lt;/em&gt; feature and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Further talk details can easily be added to this page using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
+      <guid>/publication/grade-uncompilable/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Multi-segmented FTP client</title>
-      <link>https://rohit-takhar.github.io/project/multi_ftp/</link>
+      <title>External Project</title>
+      <link>/project/osava/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0530</pubDate>
       
-      <guid>https://rohit-takhar.github.io/project/multi_ftp/</guid>
-      <description>
+      <guid>/project/osava/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Internal Project</title>
+      <link>/project/multi_ftp/</link>
+      <pubDate>Wed, 27 Apr 2016 00:00:00 +0530</pubDate>
+      
+      <guid>/project/multi_ftp/</guid>
+      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 
-&lt;p&gt;Apart from all functionalities of standard FTP, the important thing on which I have worked is to increase the downloading speed of very large files using multithreading(used &lt;code&gt;POSIX&lt;/code&gt; threads).&lt;br /&gt;
-For very large files, multiple threads are created and each thread creates an &lt;code&gt;instruction connection&lt;/code&gt; and &lt;code&gt;data connection&lt;/code&gt; with the server. Each thread downloads a specific chunk of data and then all are combined together to get the file.&lt;/p&gt;
+&lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
 
-&lt;h2 id=&#34;note&#34;&gt;Note:&lt;/h2&gt;
+&lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
 
-&lt;p&gt;Use only for very large files because creating and managing threads is also an overhead for CPU. Performance will degrade for smaller files.&lt;/p&gt;
+&lt;p&gt;Suspendisse a tincidunt lacus. Curabitur at urna sagittis, dictum ante sit amet, euismod magna. Sed rutrum massa id tortor commodo, vitae elementum turpis tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean purus turpis, venenatis a ullamcorper nec, tincidunt et massa. Integer posuere quam rutrum arcu vehicula imperdiet. Mauris ullamcorper quam vitae purus congue, quis euismod magna eleifend. Vestibulum semper vel augue eget tincidunt. Fusce eget justo sodales, dapibus odio eu, ultrices lorem. Duis condimentum lorem id eros commodo, in facilisis mauris scelerisque. Morbi sed auctor leo. Nullam volutpat a lacus quis pharetra. Nulla congue rutrum magna a ornare.&lt;/p&gt;
 
-&lt;p&gt;Following functions are included. For example:&lt;br /&gt;
-&lt;code&gt;ls&lt;/code&gt; : To list files in current directory on server side.&lt;br /&gt;
-&lt;code&gt;ls -l&lt;/code&gt; : Same as &lt;code&gt;ls&lt;/code&gt;, with some more details.&lt;br /&gt;
-&lt;code&gt;pwd&lt;/code&gt; : Current working directory on server side.&lt;br /&gt;
-&lt;code&gt;get filename&lt;/code&gt; : Download file from server.(File should be present on server side).&lt;br /&gt;
-&lt;code&gt;put filename&lt;/code&gt; : Upload file on server.&lt;br /&gt;
-&lt;code&gt;uniqput filename&lt;/code&gt; : Uniquely upload file on server.&lt;br /&gt;
-&lt;code&gt;mkdir directory_name&lt;/code&gt; : Create directory on server.&lt;br /&gt;
-&lt;code&gt;rmdir directory_name&lt;/code&gt; : Remove directory on server.&lt;br /&gt;
-&lt;code&gt;rm filename&lt;/code&gt; : Remove file on server.&lt;br /&gt;
-&lt;code&gt;cd directory_name&lt;/code&gt; : Traverse file system on server side.&lt;br /&gt;
-&lt;code&gt;rename old_filename new_filename&lt;/code&gt; : Renaming file on server.&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;!ls&lt;/code&gt; : To list files in current directory on client side.&lt;br /&gt;
-&lt;code&gt;!ls -l&lt;/code&gt; : Same as &lt;code&gt;!ls&lt;/code&gt;, with some more details.&lt;br /&gt;
-&lt;code&gt;!pwd&lt;/code&gt; : Current working directory on client side.&lt;br /&gt;
-&lt;code&gt;!cd directory_name&lt;/code&gt; : Traverse file system on client side.&lt;br /&gt;
-&lt;code&gt;!mkdir directory_name&lt;/code&gt; : Create directory on client side.&lt;br /&gt;
-&lt;code&gt;!rmdir directory_name&lt;/code&gt; : Remove directory on client side.&lt;/p&gt;
-
-&lt;p&gt;To run:&lt;br /&gt;
-Run command &lt;code&gt;make all&lt;/code&gt; to compile program.&lt;br /&gt;
-To execute, run &lt;code&gt;./myftp server-ip-address&lt;/code&gt;.&lt;br /&gt;
-Enter user credentials to login on server.&lt;/p&gt;
-
-&lt;h2 id=&#34;features-in-gui-apart-from-all-the-functionalities&#34;&gt;Features in GUI(Apart from all the functionalities)&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Drag N Drop to upload and download files.&lt;br /&gt;&lt;/li&gt;
-&lt;li&gt;Double click to enter directory.&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;acknowledgements&#34;&gt;Acknowledgements&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Professor &lt;code&gt;Khushil Saini&lt;/code&gt;(&lt;a href=&#34;http://nsit.ac.in/faculty/kss/&#34; target=&#34;_blank&#34;&gt;http://nsit.ac.in/faculty/kss/&lt;/a&gt;), for the project idea and concepts about multithreading.&lt;/li&gt;
-&lt;li&gt;Stackoverflow community(&lt;a href=&#34;http://stackoverflow.com&#34; target=&#34;_blank&#34;&gt;http://stackoverflow.com&lt;/a&gt;).&lt;/li&gt;
-&lt;li&gt;The very helpful documentation of FTP &lt;code&gt;RFC 959&lt;/code&gt;(&lt;a href=&#34;https://www.ietf.org/rfc/rfc959.txt&#34; target=&#34;_blank&#34;&gt;https://www.ietf.org/rfc/rfc959.txt&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Aliquam in turpis accumsan, malesuada nibh ut, hendrerit justo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque sed erat nec justo posuere suscipit. Donec ut efficitur arcu, in malesuada neque. Nunc dignissim nisl massa, id vulputate nunc pretium nec. Quisque eget urna in risus suscipit ultricies. Pellentesque odio odio, tincidunt in eleifend sed, posuere a diam. Nam gravida nisl convallis semper elementum. Morbi vitae felis faucibus, vulputate orci placerat, aliquet nisi. Aliquam erat volutpat. Maecenas sagittis pulvinar purus, sed porta quam laoreet at.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Academic: the website designer for Hugo</title>
-      <link>https://rohit-takhar.github.io/post/getting-started/</link>
+      <link>/post/getting-started/</link>
       <pubDate>Wed, 20 Apr 2016 00:00:00 +0530</pubDate>
       
-      <guid>https://rohit-takhar.github.io/post/getting-started/</guid>
+      <guid>/post/getting-started/</guid>
       <description>
 
 &lt;p&gt;&lt;strong&gt;Academic&lt;/strong&gt; makes it easy to create a beautiful website for free using Markdown. Customize anything on your site with widgets, themes, and language packs.&lt;/p&gt;
 
-&lt;p&gt;[&lt;img src=&#34;boy_girl.jpg&#34; alt=&#34;Screenshot&#34; /&gt;]
-[&lt;img src=&#34;calvin_hobbs.jpg&#34; alt=&#34;Screenshot&#34; /&gt;]
-[&lt;img src=&#34;couple.jpg&#34; alt=&#34;Screenshot&#34; /&gt;]
-[&lt;img src=&#34;sasuke.jpg&#34; alt=&#34;Screenshot&#34; /&gt;]&lt;/p&gt;
+&lt;p&gt;Follow our easy &lt;a href=&#34;https://sourcethemes.com/academic/docs/install/&#34; target=&#34;_blank&#34;&gt;step by step guide&lt;/a&gt; to learn how to build your own free website with Academic. &lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34;&gt;Check out the personal demo&lt;/a&gt; or the &lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34;&gt;business demo&lt;/a&gt; of what you&amp;rsquo;ll get in less than 10 minutes.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34; target=&#34;_blank&#34;&gt;View the documentation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://discuss.gohugo.io/&#34; target=&#34;_blank&#34;&gt;Ask a question&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gcushen/hugo-academic/issues&#34; target=&#34;_blank&#34;&gt;Request a feature or report a bug&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Updating? View the &lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34; target=&#34;_blank&#34;&gt;Update Guide&lt;/a&gt; and &lt;a href=&#34;https://sourcethemes.com/academic/updates/&#34; target=&#34;_blank&#34;&gt;Release Notes&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Support development of Academic:
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://paypal.me/cushen&#34; target=&#34;_blank&#34;&gt;Donate a coffee&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.patreon.com/cushen&#34; target=&#34;_blank&#34;&gt;Become a backer on Patreon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.redbubble.com/people/neutreno/works/34387919-academic&#34; target=&#34;_blank&#34;&gt;Decorate your laptop or journal with an Academic sticker&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://academic.threadless.com/&#34; target=&#34;_blank&#34;&gt;Wear the T-shirt&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/gcushen/hugo-academic/&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://raw.githubusercontent.com/gcushen/hugo-academic/master/academic.png&#34; alt=&#34;Screenshot&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Key features:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Easily manage various content including homepage, blog posts, publications, talks, and projects&lt;/li&gt;
+&lt;li&gt;Extensible via &lt;strong&gt;color themes&lt;/strong&gt; and &lt;strong&gt;widgets/plugins&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Write in &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt; for easy formatting and code highlighting, with &lt;a href=&#34;https://en.wikibooks.org/wiki/LaTeX/Mathematics&#34; target=&#34;_blank&#34;&gt;LaTeX&lt;/a&gt; for mathematical expressions&lt;/li&gt;
+&lt;li&gt;Social/academic network linking, &lt;a href=&#34;https://analytics.google.com&#34; target=&#34;_blank&#34;&gt;Google Analytics&lt;/a&gt;, and &lt;a href=&#34;https://disqus.com&#34; target=&#34;_blank&#34;&gt;Disqus&lt;/a&gt; comments&lt;/li&gt;
+&lt;li&gt;Responsive and mobile friendly&lt;/li&gt;
+&lt;li&gt;Simple and refreshing one page design&lt;/li&gt;
+&lt;li&gt;Multilingual and easy to customize&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;color-themes&#34;&gt;Color Themes&lt;/h2&gt;
+
+&lt;p&gt;Academic is available in different color themes and font themes.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+&lt;div class=&#34;gallery&#34;&gt;
+
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/post/getting-started/gallery/theme-1950s.png&#34; data-caption=&#34;1950s&#34;&gt;
+  &lt;img src=&#34;/post/getting-started/gallery/theme-1950s_huaf5482f8cea0c5a703a328640e3b7509_21614_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/post/getting-started/gallery/theme-apogee.png&#34; data-caption=&#34;Apogee&#34;&gt;
+  &lt;img src=&#34;/post/getting-started/gallery/theme-apogee_hu4b45d99db97150df01464c393bfd17d4_24119_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/post/getting-started/gallery/theme-coffee-playfair.png&#34; data-caption=&#34;Coffee theme with Playfair font&#34;&gt;
+  &lt;img src=&#34;/post/getting-started/gallery/theme-coffee-playfair_hu446a8f670cc5622adcc77b97ba95f6c5_22462_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/post/getting-started/gallery/theme-cupcake.png&#34; data-caption=&#34;Cupcake&#34;&gt;
+  &lt;img src=&#34;/post/getting-started/gallery/theme-cupcake_hueba8cfa8cfbc7543924fcbf387a99e92_23986_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/post/getting-started/gallery/theme-dark.png&#34; data-caption=&#34;Dark&#34;&gt;
+  &lt;img src=&#34;/post/getting-started/gallery/theme-dark_hu1e8601ecc47f58eada7743fdcd709d3d_21456_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/post/getting-started/gallery/theme-default.png&#34; data-caption=&#34;Default&#34;&gt;
+  &lt;img src=&#34;/post/getting-started/gallery/theme-default_huba6228b7bdf30e2f03f12ea91b2cba0d_21751_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/post/getting-started/gallery/theme-forest.png&#34; data-caption=&#34;Forest&#34;&gt;
+  &lt;img src=&#34;/post/getting-started/gallery/theme-forest_hu4f093a1c683134431456584193ea41ee_21797_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+    
+    
+    
+    
+    
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+    
+  &lt;a data-fancybox=&#34;gallery-gallery&#34; href=&#34;/post/getting-started/gallery/theme-ocean.png&#34; data-caption=&#34;Ocean&#34;&gt;
+  &lt;img src=&#34;/post/getting-started/gallery/theme-ocean_hu14831ccafc2219f30a7a096fa7617e01_21760_0x190_resize_lanczos_2.png&#34; alt=&#34;&#34;&gt;
+  &lt;/a&gt;
+  
+
+  
+&lt;/div&gt;
+
+&lt;h2 id=&#34;ecosystem&#34;&gt;Ecosystem&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/sourcethemes/academic-admin&#34; target=&#34;_blank&#34;&gt;Academic Admin&lt;/a&gt;:&lt;/strong&gt; An admin tool to import publications from BibTeX or import assets for an offline site&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://github.com/sourcethemes/academic-scripts&#34; target=&#34;_blank&#34;&gt;Academic Scripts&lt;/a&gt;:&lt;/strong&gt; Scripts to help migrate content to new versions of Academic&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;install&#34;&gt;Install&lt;/h2&gt;
+
+&lt;p&gt;You can choose from one of the following four methods to install:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;one-click install using your web browser (recommended)&lt;/li&gt;
+&lt;li&gt;install on your computer using Git with the Command Prompt/Terminal app&lt;/li&gt;
+&lt;li&gt;install on your computer by downloading the ZIP files&lt;/li&gt;
+&lt;li&gt;install on your computer with RStudio&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;quick-install-using-your-web-browser&#34;&gt;Quick install using your web browser&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://app.netlify.com/start/deploy?repository=https://github.com/sourcethemes/academic-kickstart&#34; target=&#34;_blank&#34;&gt;Install Academic with Netlify&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Netlify will provide you with a customizable URL to access your new site&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;On GitHub, go to your newly created &lt;code&gt;academic-kickstart&lt;/code&gt; repository and edit &lt;code&gt;config.toml&lt;/code&gt; to personalize your site. Shortly after saving the file, your site will automatically update&lt;/li&gt;
+&lt;li&gt;Read the &lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34; target=&#34;_blank&#34;&gt;Quick Start Guide&lt;/a&gt; to learn how to add Markdown content. For inspiration, refer to the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite&#34; target=&#34;_blank&#34;&gt;Markdown content&lt;/a&gt; which powers the &lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34;&gt;Demo&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;install-with-git&#34;&gt;Install with Git&lt;/h3&gt;
+
+&lt;p&gt;Prerequisites:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://git-scm.com/downloads&#34; target=&#34;_blank&#34;&gt;Download and install Git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io/getting-started/installing/#quick-install&#34; target=&#34;_blank&#34;&gt;Download and install Hugo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/sourcethemes/academic-kickstart#fork-destination-box&#34; target=&#34;_blank&#34;&gt;Fork&lt;/a&gt; the &lt;em&gt;Academic Kickstart&lt;/em&gt; repository and clone your fork with Git:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git clone https://github.com/sourcethemes/academic-kickstart.git My_Website
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;em&gt;Note that if you forked Academic Kickstart, the above command should be edited to clone your fork, i.e. replace &lt;code&gt;sourcethemes&lt;/code&gt; with your GitHub username.&lt;/em&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Initialize the theme:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd My_Website
+git submodule update --init --recursive
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;install-with-zip&#34;&gt;Install with ZIP&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/sourcethemes/academic-kickstart/archive/master.zip&#34; target=&#34;_blank&#34;&gt;Download&lt;/a&gt; and extract &lt;em&gt;Academic Kickstart&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/gcushen/hugo-academic/archive/master.zip&#34; target=&#34;_blank&#34;&gt;Download&lt;/a&gt; and extract the &lt;em&gt;Academic theme&lt;/em&gt; to the &lt;code&gt;themes/academic/&lt;/code&gt; folder from the above step&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;install-with-rstudio&#34;&gt;Install with RStudio&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/install/#install-with-rstudio&#34; target=&#34;_blank&#34;&gt;View the guide to installing Academic with RStudio&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;quick-start&#34;&gt;Quick start&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;If you installed on your computer, view your new website by running the following command:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo server
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Now visit &lt;a href=&#34;http://localhost:1313&#34; target=&#34;_blank&#34;&gt;localhost:1313&lt;/a&gt; and your new Academic powered website will appear. Otherwise, if using Netlify, they will provide you with your URL.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Read the &lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34; target=&#34;_blank&#34;&gt;Quick Start Guide&lt;/a&gt; to learn how to add Markdown content, customize your site, and deploy it. For inspiration, refer to the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/tree/master/exampleSite&#34; target=&#34;_blank&#34;&gt;Markdown content&lt;/a&gt; which powers the &lt;a href=&#34;https://academic-demo.netlify.com/&#34; target=&#34;_blank&#34;&gt;Demo&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Build your site by running the &lt;code&gt;hugo&lt;/code&gt; command. Then &lt;a href=&#34;https://georgecushen.com/create-your-website-with-hugo/&#34; target=&#34;_blank&#34;&gt;host it for free using Github Pages&lt;/a&gt; or Netlify (refer to the first installation method). Alternatively, copy the generated &lt;code&gt;public/&lt;/code&gt; directory (by FTP, Rsync, etc.) to your production web server (such as a university&amp;rsquo;s hosting service).&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;updating&#34;&gt;Updating&lt;/h2&gt;
+
+&lt;p&gt;Feel free to &lt;em&gt;star&lt;/em&gt; the project on &lt;a href=&#34;https://github.com/gcushen/hugo-academic/&#34; target=&#34;_blank&#34;&gt;Github&lt;/a&gt; to help keep track of updates and check out the &lt;a href=&#34;https://sourcethemes.com/academic/updates&#34; target=&#34;_blank&#34;&gt;release notes&lt;/a&gt; prior to updating your site.&lt;/p&gt;
+
+&lt;p&gt;Before updating the framework, it is recommended to make a backup of your entire website directory (or at least your &lt;code&gt;themes/academic&lt;/code&gt; directory) and record your current version number.&lt;/p&gt;
+
+&lt;p&gt;By default, Academic is installed as a Git submodule which can be updated by running the following command:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;git submodule update --remote --merge
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/update/&#34; target=&#34;_blank&#34;&gt;Check out the update guide&lt;/a&gt; for full instructions and alternative methods.&lt;/p&gt;
+
+&lt;h2 id=&#34;feedback-contributing&#34;&gt;Feedback &amp;amp; Contributing&lt;/h2&gt;
+
+&lt;p&gt;Please use the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/issues&#34; target=&#34;_blank&#34;&gt;issue tracker&lt;/a&gt; to let me know about any bugs or feature requests, or alternatively make a pull request.&lt;/p&gt;
+
+&lt;p&gt;For support, head over to the &lt;a href=&#34;http://discuss.gohugo.io&#34; target=&#34;_blank&#34;&gt;Hugo discussion forum&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&#34;license&#34;&gt;License&lt;/h2&gt;
 
 &lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Released under the &lt;a href=&#34;https://github.com/gcushen/hugo-academic/blob/master/LICENSE.md&#34; target=&#34;_blank&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Slides</title>
-      <link>https://rohit-takhar.github.io/slides/example-slides/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://rohit-takhar.github.io/slides/example-slides/</guid>
-      <description>
-
-&lt;h1 id=&#34;welcome-to-slides&#34;&gt;Welcome to Slides&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34;&gt;Academic&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Efficiently write slides in Markdown&lt;/li&gt;
-&lt;li&gt;3-in-1: Create, Present, and Publish your slides&lt;/li&gt;
-&lt;li&gt;Supports speaker notes&lt;/li&gt;
-&lt;li&gt;Mobile friendly slides&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;controls&#34;&gt;Controls&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Next: &lt;code&gt;Right Arrow&lt;/code&gt; or &lt;code&gt;Space&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Previous: &lt;code&gt;Left Arrow&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Start: &lt;code&gt;Home&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Finish: &lt;code&gt;End&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Overview: &lt;code&gt;Esc&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Speaker notes: &lt;code&gt;S&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Fullscreen: &lt;code&gt;F&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Zoom: &lt;code&gt;Alt + Click&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/hakimel/reveal.js#pdf-export&#34; target=&#34;_blank&#34;&gt;PDF Export&lt;/a&gt;: &lt;code&gt;E&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;code-highlighting&#34;&gt;Code Highlighting&lt;/h2&gt;
-
-&lt;p&gt;Inline code: &lt;code&gt;variable&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;Code block:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;porridge = &amp;quot;blueberry&amp;quot;
-if porridge == &amp;quot;blueberry&amp;quot;:
-    print(&amp;quot;Eating...&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;math&#34;&gt;Math&lt;/h2&gt;
-
-&lt;p&gt;In-line math: $x + y = z$&lt;/p&gt;
-
-&lt;p&gt;Block math:&lt;/p&gt;
-
-&lt;p&gt;$$
-f\left( x \right) = \;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}}
-$$&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;fragments&#34;&gt;Fragments&lt;/h2&gt;
-
-&lt;p&gt;Make content appear incrementally&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;{{% fragment %}} One {{% /fragment %}}
-{{% fragment %}} **Two** {{% /fragment %}}
-{{% fragment %}} Three {{% /fragment %}}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Press &lt;code&gt;Space&lt;/code&gt; to play!&lt;/p&gt;
-
-&lt;p&gt;&lt;span class=&#34;fragment &#34; &gt;
-  One
-&lt;/span&gt;
-&lt;span class=&#34;fragment &#34; &gt;
-  &lt;strong&gt;Two&lt;/strong&gt;
-&lt;/span&gt;
-&lt;span class=&#34;fragment &#34; &gt;
-  Three
-&lt;/span&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;A fragment can accept two optional parameters:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;class&lt;/code&gt;: use a custom style (requires definition in custom CSS)&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;weight&lt;/code&gt;: sets the order in which a fragment appears&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;speaker-notes&#34;&gt;Speaker Notes&lt;/h2&gt;
-
-&lt;p&gt;Add speaker notes to your presentation&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{% speaker_note %}}
-- Only the speaker can read these notes
-- Press `S` key to view
-{{% /speaker_note %}}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Press the &lt;code&gt;S&lt;/code&gt; key to view the speaker notes!&lt;/p&gt;
-
-&lt;aside class=&#34;notes&#34;&gt;
-  &lt;ul&gt;
-&lt;li&gt;Only the speaker can read these notes&lt;/li&gt;
-&lt;li&gt;Press &lt;code&gt;S&lt;/code&gt; key to view&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;/aside&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;themes&#34;&gt;Themes&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;black: Black background, white text, blue links (default)&lt;/li&gt;
-&lt;li&gt;white: White background, black text, blue links&lt;/li&gt;
-&lt;li&gt;league: Gray background, white text, blue links&lt;/li&gt;
-&lt;li&gt;beige: Beige background, dark text, brown links&lt;/li&gt;
-&lt;li&gt;sky: Blue background, thin dark text, blue links&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;ul&gt;
-&lt;li&gt;night: Black background, thick white text, orange links&lt;/li&gt;
-&lt;li&gt;serif: Cappuccino background, gray text, brown links&lt;/li&gt;
-&lt;li&gt;simple: White background, black text, blue links&lt;/li&gt;
-&lt;li&gt;solarized: Cream-colored background, dark green text, blue links&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-
-&lt;section data-noprocess data-shortcode-slide
-  
-      
-      data-background-image=&#34;/img/boards.jpg&#34;
-  &gt;
-
-
-&lt;h2 id=&#34;custom-slide&#34;&gt;Custom Slide&lt;/h2&gt;
-
-&lt;p&gt;Customize the slide style and background&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;{{&amp;lt; slide background-image=&amp;quot;/img/boards.jpg&amp;quot; &amp;gt;}}
-{{&amp;lt; slide background-color=&amp;quot;#0000FF&amp;quot; &amp;gt;}}
-{{&amp;lt; slide class=&amp;quot;my-style&amp;quot; &amp;gt;}}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;custom-css-example&#34;&gt;Custom CSS Example&lt;/h2&gt;
-
-&lt;p&gt;Let&amp;rsquo;s make headers navy colored.&lt;/p&gt;
-
-&lt;p&gt;Create &lt;code&gt;assets/css/reveal_custom.css&lt;/code&gt; with:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;.reveal section h1,
-.reveal section h2,
-.reveal section h3 {
-  color: navy;
-}
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;questions&#34;&gt;Questions?&lt;/h1&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://discourse.gohugo.io&#34; target=&#34;_blank&#34;&gt;Ask&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/docs/&#34; target=&#34;_blank&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

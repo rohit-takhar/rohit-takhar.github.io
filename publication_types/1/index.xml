@@ -2,22 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>1 on Rohit Takhar</title>
-    <link>https://rohit-takhar.github.io/publication_types/1/</link>
+    <link>/publication_types/1/</link>
     <description>Recent content in 1 on Rohit Takhar</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>&amp;copy; 2018 Rohit Takhar</copyright>
-    <lastBuildDate>Mon, 29 Oct 2018 00:00:00 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 30 Jan 2019 00:00:00 +0530</lastBuildDate>
     
-	<atom:link href="https://rohit-takhar.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Grading uncompilable programs</title>
-      <link>https://rohit-takhar.github.io/publication/grade-uncompilable/</link>
-      <pubDate>Mon, 29 Oct 2018 00:00:00 +0530</pubDate>
+      <title>Grading Uncompilable Programs</title>
+      <link>/publication/grade-uncompilable/</link>
+      <pubDate>Wed, 30 Jan 2019 00:00:00 +0530</pubDate>
       
-      <guid>https://rohit-takhar.github.io/publication/grade-uncompilable/</guid>
+      <guid>/publication/grade-uncompilable/</guid>
       <description></description>
     </item>
     
